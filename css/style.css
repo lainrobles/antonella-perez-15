@@ -308,7 +308,29 @@ section::before{background:radial-gradient(circle at 12% 25%,rgba(255,255,255,.9
   }
   section{padding:84px 0;scroll-margin-top:8px;content-visibility:auto;contain-intrinsic-size:820px}
   .hero{padding:18px 0;min-height:100svh}.hero-frame{width:94%;min-height:88svh;border-radius:26px}.hero-content{padding:56px 20px}
-  .hero-name{font-size:clamp(3.3rem,14vw,5rem);line-height:.94}.hero-text{font-size:.95rem}.hero-button{padding:13px 24px}.floral{display:none}
+  .hero-name{
+  font-size:clamp(3.3rem,14vw,5rem);
+  line-height:.94;
+}
+
+.hero-name .space{
+  display:block;
+  width:100%;
+  height:0;
+  line-height:0;
+}
+
+.hero-text{
+  font-size:.95rem;
+}
+
+.hero-button{
+  padding:13px 24px;
+}
+
+.floral{
+  display:none;
+}
   .motion-left,.motion-right{transform:translateY(45px)}
   .countdown{grid-template-columns:repeat(2,1fr);gap:16px}.flip-card{height:106px}.flip-card span{font-size:3.8rem}
   .quote-card,.location-card,.song-card,.dress-card,.gift-card,.photo-share-card{padding:38px 22px;backdrop-filter:none}.quote{font-size:1.45rem}
